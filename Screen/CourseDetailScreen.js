@@ -1,10 +1,12 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import React from 'react';
+import { View, Text } from 'react-native';
 
-export default function CourseDetailScreen() {
+const CourseDetailScreen = () => {
   return (
     <View>
-      <Text>CourseDetailScreen</Text>
+      <Text>Course Detail Screen</Text>
     </View>
-  )
-}
+  );
+};
+
+export default CourseDetailScreen;
